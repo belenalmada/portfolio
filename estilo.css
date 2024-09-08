@@ -1,74 +1,108 @@
-body { background-color: rgb(135, 131, 141);
+/* Estilo pantalla grande*/
+body {
+    background-color: rgb(135, 131, 141);
     background-image: url('fondo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    font-size:35px; 
-    line-height:40px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:blueviolet;
-    text-align: center; 
-  
+    font-size: 35px; 
+    line-height: 40px;
+    color: blueviolet;
+    margin: 20px 0;
 }
 
 h2 {
-    font-size:20px; 
-    line-height:30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+    line-height: 30px;
     color: #04bc84;
-    text-align: center; 
-  
+    margin: 10px 0;
 }
 
 img.Paisaje {
-    display: block;
     max-width: 100%;
     height: auto;
+    display: block;
     margin: 20px auto;
     border-radius: 10px;
-  }
-
-p.Bienvenida {
-    font-size:20px; 
-    line-height:30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center; 
-  
 }
 
+p.Bienvenida,
 p.Cuerpo {
-    font-size:20px; 
-    line-height:30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center; 
-  
+    font-size: 20px; 
+    line-height: 30px;
+    color: rgb(5, 73, 61); 
+    margin: 10px 20px;
 }
 
-#parrafo1 {
-    color: rgb(5, 73, 61);
-}
 
 #parrafo2 {
     color: rgb(92, 43, 153);
+}
 
-}
-  
 .instagram-icon {
-    width: 48px; 
-    height: 48px; 
-    fill: #405DE6; 
-    transition: fill 0.3s ease; 
+    width: 48px;
+    height: 48px;
+    fill: #405DE6;
+    transition: fill 0.3s ease;
 }
-  
+
 .instagram-icon:hover {
-    fill: #E4405F; 
+    fill: #E4405F;
 }
-  
+
 .Instagram {
-    text-align: center; 
-    margin-bottom: 30px; 
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* Estilo para tabletas */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p.Bienvenida,
+    p.Cuerpo {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .Instagram {
+        margin: 20px 0;
+    }
+}
+
+/* Estilo para celulares */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    p.Bienvenida,
+    p.Cuerpo {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    img.Paisaje {
+        margin: 10px auto;
+    }
 }
