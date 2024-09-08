@@ -1,0 +1,74 @@
+body { background-color: rgb(135, 131, 141);
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    font-size:35px; 
+    line-height:40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:blueviolet;
+    text-align: center; 
+  
+}
+
+h2 {
+    font-size:20px; 
+    line-height:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #04bc84;
+    text-align: center; 
+  
+}
+
+img.Paisaje {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+
+p.Bienvenida {
+    font-size:20px; 
+    line-height:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center; 
+  
+}
+
+p.Cuerpo {
+    font-size:20px; 
+    line-height:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center; 
+  
+}
+
+#parrafo1 {
+    color: rgb(5, 73, 61);
+}
+
+#parrafo2 {
+    color: rgb(92, 43, 153);
+
+}
+  
+.instagram-icon {
+    width: 48px; 
+    height: 48px; 
+    fill: #405DE6; 
+    transition: fill 0.3s ease; 
+}
+  
+.instagram-icon:hover {
+    fill: #E4405F; 
+}
+  
+.Instagram {
+    text-align: center; 
+    margin-bottom: 30px; 
+}
